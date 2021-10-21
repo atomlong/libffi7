@@ -6,6 +6,7 @@ pkgbase = libffi7
 	arch = x86_64
 	license = MIT
 	depends = glibc
+	provides = libffi.so
 	source = https://sourceware.org/pub/libffi/libffi-3.3.tar.gz
 	sha1sums = 8df6cb570c8d6596a67d1c0773bf00650154f7aa
 

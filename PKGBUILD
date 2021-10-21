@@ -9,6 +9,7 @@ arch=('x86_64')
 url="http://sourceware.org/libffi"
 license=('MIT')
 depends=('glibc')
+provides=('libffi.so')
 source=(https://sourceware.org/pub/libffi/libffi-$pkgver.tar.gz)
 sha1sums=('8df6cb570c8d6596a67d1c0773bf00650154f7aa')
 
